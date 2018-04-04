@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anagrams_background"
+    tools:context="com.austin.anagrams.Challenges">
+
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="370dp"
+        android:layout_height="492dp"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:id="@+id/Challenge1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Challenge 1"
+            android:layout_alignBottom="@+id/Challenge2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="78dp" />
+
+        <Button
+            android:id="@+id/Challenge2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Challenge 2"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/Challenge1"
+            android:layout_alignStart="@+id/Challenge1"
+            android:layout_marginTop="208dp" />
+
+        <Button
+            android:id="@+id/Challenge3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Challenge 3"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="116dp"
+            android:layout_below="@+id/Challenge1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Challenge1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="52dp"
+            android:text="Challenges"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</LinearLayout>
